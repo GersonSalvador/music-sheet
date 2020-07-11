@@ -1,23 +1,18 @@
 import React from 'react';
-import { Editor } from 'react-abc';
+import Header from './components/Header';
+import AsideMenu from './components/AsideMenu'
+import TopMenu from './components/TopMenu'
+// import { Editor } from 'react-abc';
 import './App.css';
 
 function App() {
 
-  const notation = 'CDEF GABc|';
-
-  const id = 'a-random-id';
-
   return (
-    <div>yarn 
-    <textarea
-      defaultValue={notation}
-      id={id}
-    />
-    <Editor
-      editArea={id}
-    />
-  </div>
+    <>
+      <Header />
+      <AsideMenu />
+      <TopMenu />
+    </>
   );
 }
 

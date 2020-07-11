@@ -1,0 +1,10 @@
+div.topmenu{
+  width: calc(100vw - 196px);
+  display: flex;
+  height: 50px;
+  position: absolute;
+  right: 0;
+  box-shadow: inset 0 -1px 0 #e1e4e8;
+  color: #fff;
+  background: #fafbfc;
+}
